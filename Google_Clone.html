@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Google.com W.KHO</title>
+</head>
+	
+	<style>
+		.ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			display: block;
+		}
+
+		.li {
+			display: inline;
+			padding: 0px 5px;
+			padding-top: 5px;
+			float: right;
+		}
+
+		#google_img {
+			display: block;
+			margin-left: auto;
+			margin-right: auto; 
+			padding-top: 100px;
+			height: 180px;
+			width: 270px;
+		}
+
+		.search_bar {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 420px;
+			height: 30px;
+			border-width: 3px;
+		}
+
+		#search_bar_text {
+			font-size: 18pt;
+			font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+		}
+
+		.button {
+			display: inline;
+		}
+
+		#position {
+			text-align: center;
+		}
+				
+	</style>
+
+<body>
+	<ul class="ul">
+		<li class="li"><a href="">Sign In</a></li>
+		<li class="li"><a href="">Images</a></li>
+		<li class="li"><a href="">Gmail</a></li>
+	</ul>	
+	<br>
+	<br>
+	<img id="google_img" src="http://ocdlife.ca/wp-content/uploads/2017/10/4b9617926c2c76b397d684e46a721.jpg" alt="Google" title="Google">
+	<br>
+	<form action="test_submit" method="get" accept-charset="utf-8">
+		<input class="search_bar" id="search_bar_text" type="text" name="Search" value="Search Google or type URL">
+		<br>
+		<div id="position">
+		<input class="button" type="submit" name="Google Search" value="Google Search">
+		<input class="button" type="submit" name="I'm Feeling Lucky" value="I'm Feeling Lucky">
+		</div>
+	</form>
+	
+</body>
+
+</html>
